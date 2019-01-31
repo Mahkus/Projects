@@ -13,7 +13,7 @@ def getService():
 	url = 'https://api.pagerduty.com/escalation_policies?query=CORE%20Escalation&include%5B%5D=services&sort_by=name'
 	headers = {
 		'Accept' : 'application/vnd.pagerduty+json;version=2',
-		'Authorization' : 'Token token=CCRFrTFG2_xEW_6_7TYx'
+		'Authorization' : 'Token token=#Put your token here'
 	}
 	#Get request
 	r = requests.get(url, headers = headers)
