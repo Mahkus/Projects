@@ -34,7 +34,7 @@ def update_user():
 		#Standard PagerDuty API headers
 		headers = {
 			'Accept': 'application/vnd.pagerduty+json;version=2',
-			'Authorization': 'Token token=CCRFrTFG2_xEW_6_7TYx',
+			'Authorization': 'Token token=#Put your token here',
 			'Content-type': 'application/json'
 			}
 		#Payload to update specific email
