@@ -40,7 +40,7 @@ def updateService():
 		headers = {
 			"Content-Type": "application/json",
 			"Accept": "application/vnd.pagerduty+json;version=2",
-			"Authorization": "Token token=CCRFrTFG2_xEW_6_7TYx"
+			"Authorization": "Token token=#Put your token here"
 		}
 		#Specific payload to put to the service
 		payload = {
